@@ -1,0 +1,41 @@
+#weatherforecast {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  rgb(22, 207, 121) ;
+}
+
+.currentUVI {
+    display: inline;
+    padding: 5 15px 5 15px;
+    border-radius: 15px;
+}
+
+h1 {
+    background-color:  rgb(54, 173, 54);
+    color: rgb(5, 7, 14);
+    font-size: 45px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 25px 05px 25px 05px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+
+}
+
+body {
+    background-color: rgb(221, 221, 213);
+}
+
+h2 {
+    font-size: 30px;
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: large;
+    height: fit-content;
+    margin-bottom: 10px;
+}
