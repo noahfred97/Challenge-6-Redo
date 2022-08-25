@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Weather API</title>
+</head>
+
+<body>
+    <h1>Weather API </h1>
+    <div>
+        <h2>Input City</h2>
+        <input id="city" type=""text />
+        <button id="searchButton">Search</button>
+    </div>
+
+    <div>
+        <h3 id = "cityname"></h3>
+        <p id = "temperature"></p>
+        <p id="windspeed"></p>
+        <p id="humidityindex"></p>
+        <p id="uvindex"></p>
+    </div>
+
+    <div>
+        <h4>Forecast Across 5 days</h4>
+        <div id="weatherforecast"></div>
+    
+    </div>
+
+    <div>
+        <h5>Past Searches</h5>
+        <div id="past"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
